@@ -10,3 +10,4 @@ class Token(BaseModel):
 
 class TokenPayload(BaseModel):
     sub: Optional[int] = None
+    scopes: List[str] = []
