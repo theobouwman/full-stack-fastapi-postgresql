@@ -35,7 +35,7 @@ Generate a backend and frontend stack using Python, including interactive API do
     * **Standards-based**: Based on (and fully compatible with) the open standards for APIs: <a href="https://github.com/OAI/OpenAPI-Specification" class="external-link" target="_blank">OpenAPI</a> and <a href="http://json-schema.org/" class="external-link" target="_blank">JSON Schema</a>.
     * <a href="https://fastapi.tiangolo.com/features/" class="external-link" target="_blank">**Many other features**</a> including automatic validation, serialization, interactive documentation, authentication with OAuth2 JWT tokens, etc.
 * **Secure password** hashing by default.
-* **JWT token** authentication.
+* **JWT token** authentication with scopes.
 * **SQLAlchemy** models (independent of Flask extensions, so they can be used with Celery workers directly).
 * Basic starting models for users (modify and remove as you need).
 * **Alembic** migrations.
